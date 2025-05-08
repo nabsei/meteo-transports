@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222;
+  transition: background 0.5s ease-in-out;
+}
+
+.meteo-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  padding: 2rem;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+#ville {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#temperature {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ff5722;
+  margin-bottom: 0.5rem;
+}
+
+#description {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+#ressenti,
+#humidite {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+#icone img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Fonds météo dynamiques */
+body.clear {
+  background: linear-gradient(to top, #87ceeb, #ffffff);
+}
+
+body.clouds {
+  background: linear-gradient(to top, #d3d3d3, #ffffff);
+}
+
+body.rain {
+  background: linear-gradient(to top, #5f9ea0, #a9a9a9);
+}
+
+body.thunderstorm {
+  background: linear-gradient(to top, #4b0082, #696969);
+}
+
+body.snow {
+  background: linear-gradient(to top, #f0f8ff, #e0e0e0);
+}
+
+body.mist {
+  background: linear-gradient(to top, #c0c0c0, #f5f5f5);
+}
+
+@media (max-width: 500px) {
+  .meteo-container {
+    padding: 1.5rem;
+  }
+
+  #temperature {
+    font-size: 3rem;
+  }
+
+  #ville {
+    font-size: 1.5rem;
+  }
+}
