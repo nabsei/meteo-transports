@@ -1,5 +1,5 @@
 
-# 🌤️ Météo Transports
+# 🌤️ Nom du projet : Météo Transports
 
 Affichage des données météo en temps réel pour les écrans des transports en commun.  
 Ce projet est développé dans le cadre de la préparation à la journée de sélection pour la formation **Concepteur Développeur d’Applications (CDA)**.
@@ -31,21 +31,10 @@ Ce projet est développé dans le cadre de la préparation à la journée de sé
 
 ## 🔌 Configuration
 
-1. Crée un compte gratuit sur https://openweathermap.org/api  
-2. Récupère ta clé API  
-3. Dans `meteo.js`, remplace :
-
-```javascript
-const API_KEY = "TA_CLE_API"; // ← Remplace ici
-```
-
-par :
-
-```javascript
-const API_KEY = "ta_vraie_clé_openweather";
-```
-
-4. Dans `conf.json`, indique la ville de ton choix :
+1. Création d'un compte gratuit sur https://openweathermap.org/api  
+2. Récupèration de la clé API  
+3. Dans `meteo.js`, intégration de la clé API personnalisée :
+4. Dans `conf.json`, indication du choix de la ville :
 
 ```json
 {
@@ -64,10 +53,10 @@ Le design est pensé pour les petits écrans (affichage public, bus, stations) a
 
 ---
 
-## 🚀 Lancer le projet
+## 🚀 Comment lancer le projet ?
 
-Ouvre simplement le fichier `index.html` dans un navigateur.  
-Tu peux aussi héberger le projet via GitHub Pages ou un serveur local.
+Ouvrir simplement le fichier `index.html` dans un navigateur.  
+Il est aussi possible d'héberger le projet sur un serveur local (avec l'extension VsCode LiveServer par exemple).
 
 ---
 
@@ -102,6 +91,6 @@ Tu peux aussi héberger le projet via GitHub Pages ou un serveur local.
 
 ---
 
-## 👨‍💻 Auteur
+## 👨‍💻 Auteur : Nabil Sahrane
 
-Projet réalisé dans le cadre de la formation CDA.
+Projet réalisé dans le cadre du processus de séléction pour la formation CDA IA.
