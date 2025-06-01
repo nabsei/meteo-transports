@@ -55,7 +55,7 @@ Le design est pensé pour les petits écrans (affichage public, bus, stations) a
 
 ## 🚀 Comment lancer le projet ?
 
-Ouvrir simplement le fichier `index.html` dans un navigateur.  
+Cliquez sur le lien => https://nabsei.github.io/meteo-transports/  
 Il est aussi possible d'héberger le projet sur un serveur local (avec l'extension VsCode LiveServer par exemple).
 
 ---
