@@ -1,9 +1,11 @@
+/* Reset des marges et paddings */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Style général de la page */
 body {
   font-family: "Segoe UI", Roboto, sans-serif;
   min-height: 100vh;
@@ -14,6 +16,7 @@ body {
   transition: background 0.5s ease-in-out;
 }
 
+/* Conteneur de la météo */
 .meteo-container {
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 20px;
@@ -24,12 +27,14 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
+/* Style du nom de la ville */
 #ville {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
 }
 
+/* Température en grand */
 #temperature {
   font-size: 4rem;
   font-weight: 600;
@@ -37,6 +42,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* Description en italique */
 #description {
   font-size: 1.2rem;
   font-style: italic;
@@ -44,6 +50,7 @@ body {
   margin-bottom: 0.5rem;
 }
 
+/* Ressenti et humidité */
 #ressenti,
 #humidite {
   font-size: 1rem;
@@ -51,12 +58,13 @@ body {
   color: #333;
 }
 
+/* Icône météo */
 #icone img {
   width: 100px;
   height: 100px;
 }
 
-/* Fonds météo dynamiques */
+/* Fonds dynamiques selon la météo */
 body.clear {
   background: linear-gradient(to top, #87ceeb, #ffffff);
 }
@@ -81,6 +89,7 @@ body.mist {
   background: linear-gradient(to top, #c0c0c0, #f5f5f5);
 }
 
+/* Responsive sur mobile */
 @media (max-width: 500px) {
   .meteo-container {
     padding: 1.5rem;
